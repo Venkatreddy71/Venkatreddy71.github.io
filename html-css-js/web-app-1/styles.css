@@ -1,0 +1,11 @@
+.login-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 10px; /*makes circle button*/
+    border: none; /*removes border*/
+}
+.create-btn{
+    background-color: green;
+    color: white;
+    
+}
