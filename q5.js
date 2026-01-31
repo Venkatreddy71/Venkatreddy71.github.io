@@ -13,3 +13,7 @@ db.employees.insertMany([{
   location: ["AZ", "FL"],
   date: Date()
 }]);
+
+db.employees.findOne()
+db.employees.find().skip(1)
+db.employees.find().limit(2)
