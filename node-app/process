@@ -2,3 +2,6 @@ write index.js program
 then in terminal command npm init -y 
 then observe package.json-"type":"module"
 then install packages - npm i express ejs bcrypt jsonwebtoken mongoose express-ejs-layouts dotenv cors
+create .gitignore folder for hiding data 
+create .env
+create different folders and files in them 
