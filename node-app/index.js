@@ -1,8 +1,11 @@
 import express from 'express'
+import dotenv from 'dotenv'
+dotenv.config()
 const app=express()
+const PORT=process.env.PORT
 const startServer=()=>{
-    app.listen(5000,()=>{
-        console.log("Server Started")
+    app.listen(PORT,()=>{
+        console.log(`Server Started ON port ${PORT}`)
     })
 }
 app.use('/admin/products',productRouter)
