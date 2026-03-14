@@ -1,0 +1,4 @@
+write index.js program
+then in terminal command npm init -y 
+then observe package.json-"type":"module"
+then install packages - npm i express ejs bcrypt jsonwebtoken mongoose express-ejs-layouts dotenv cors
