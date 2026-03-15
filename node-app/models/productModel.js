@@ -1,5 +1,4 @@
-import { privateDecrypt } from "crypto"
-import mongoose from "mongoose"
+import mongoose from 'mongoose'
 const productSchema=mongoose.Schema({
     name:{type:String},
     price:{type:Number},
@@ -8,5 +7,4 @@ const productSchema=mongoose.Schema({
 })
 
 const productModel=mongoose.model("products",productSchema)
-
 export default productModel
